@@ -13,7 +13,7 @@ BBLog.handle("add.plugin", {
 
     init : function(instance){
         $.each($(".feed-single-item"), function (index, section){
-            if(section != null && $(section).html().indexOf('/mohw/') !== -1){
+            if(section != null && $(section).html().indexOf('common-game-4096-1') !== -1){
                 $(section).hide();
             };
         });
@@ -21,7 +21,7 @@ BBLog.handle("add.plugin", {
 
     domchange : function(instance){
         $.each($(".feed-single-item"), function (index, section){
-            if(section != null && $(section).html().indexOf('/mohw/') !== -1){
+            if(section != null && $(section).html().indexOf('common-game-4096-1') !== -1){
                 $(section).hide();
             };
         });
